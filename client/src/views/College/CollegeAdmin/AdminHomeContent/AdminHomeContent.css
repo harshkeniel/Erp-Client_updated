@@ -1,0 +1,17 @@
+.adminHomeContent .leftAdmin {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 75%;
+}
+
+.adminHomeContent .leftAdmin .below {
+    display: flex;
+    gap: 1rem;
+}
+
+.adminHomeContent .rightAdmin {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}

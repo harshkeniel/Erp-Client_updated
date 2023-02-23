@@ -1,0 +1,117 @@
+.newProjectContent {
+    height: 100vh;   
+    background: var(--contentBody);
+}
+
+.newProjectSection {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.newProjectSection .newProjectInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    gap: 0.5rem;
+}
+
+.newProjectSection .newProjectInfo p {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    font-size: 18px;
+    word-spacing: 2px;
+}
+
+.newProject {
+    position: relative;
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newProject::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-image: url('../../../assets/images/projectBg.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.addNewProject {
+    display: flex;
+    padding: 3rem;
+    border-radius: 15px;
+    position: relative;
+}
+
+.addNewProject .addProjectContainer {
+    display: none;
+    background: var(--cardColor);
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: var(--profileShadow);
+    transition: all 100ms ease-in-out;
+}
+
+.addNewProject .addProjectContainer.show {
+    display: flex;
+    transition: all 100ms ease-in-out;
+}
+
+.addNewProject .addProjectContainer .addProjectSubContainer {
+    position: relative;
+    background-image: url('../../../assets//images/addProjectBg.png');
+    width: 200px;
+    height: 200px;
+}
+
+.addNewProject .addProjectContainer .addProjectSubContainer .projectIcons {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    font-size: 30px;
+}
+
+.addNewProject .beginProject {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    transition: all 100ms ease-in-out;
+    background: var(--cardColor);
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--profileShadow);
+    border-radius: 25px;
+}
+
+.addNewProject .beginProject.show {
+    display: flex;
+    transition: all 100ms ease-in-out;
+}
+
+.addNewProject .beginProject .itemOneBtns {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}

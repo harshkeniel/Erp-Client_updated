@@ -1,0 +1,39 @@
+.top-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.edit-btn {
+    color: inherit;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    background-color: rgba(0, 0, 0, 0);
+
+
+    margin: 10px 5px;
+}
+
+.edit-btn:hover {
+    background-color: rgb(0, 0, 0, 0.15);
+}
+
+.edit-btn.check-btn {
+    color: white;
+    background-color: rgb(16, 104, 0);
+}
+
+.edit-btn.cross-btn {
+    color: rgb(0, 0, 0);
+    background-color: rgb(189, 189, 189);
+}

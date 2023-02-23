@@ -1,0 +1,16 @@
+.postContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.feedHeader{
+    padding: 1rem;
+    background-color: var(--cardColor);
+    display: flex;
+    align-items: center;
+}
+
+.feedHeader h2 {
+    margin: 0 10px;
+}

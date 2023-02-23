@@ -1,0 +1,29 @@
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    padding: 0 20px;
+    color: #60686f;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.sidebar-item svg {
+    font-size: 1.2rem;
+    width: 30px;
+    margin-right: 12px;
+    text-align: center;
+}
+
+.sidebar-item:hover {
+    background-color: #f2f5f8;
+}
+
+.sidebar-item.active {
+    background-color: var(--black);
+    color: white;
+}

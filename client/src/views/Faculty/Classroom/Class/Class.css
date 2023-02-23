@@ -1,0 +1,17 @@
+.faculty .classBody{
+    padding: 1rem 10rem;
+    min-height: 90vh;
+}
+
+.faculty .classBodyContent {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem;
+    width: 90%;
+    margin: 0rem auto;
+}
+
+.faculty .stream{
+    padding: 0%;
+}

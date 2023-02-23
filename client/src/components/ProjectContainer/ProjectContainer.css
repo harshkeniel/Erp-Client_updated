@@ -1,0 +1,9 @@
+.projectContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}

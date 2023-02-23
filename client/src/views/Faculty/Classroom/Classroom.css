@@ -1,0 +1,14 @@
+
+.faculty .classroomBody{
+    padding: 1rem 0;
+    min-height: 90vh;
+}
+
+.faculty .classroomBodyContent {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem;
+    width: 90%;
+    margin: 0rem auto;
+}

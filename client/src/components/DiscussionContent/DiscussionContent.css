@@ -1,0 +1,102 @@
+.discussionContent {
+    width: 70%;
+    display: flex;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    gap: 1rem;
+    flex-direction: column;
+    background: var(--cardColor)
+}
+
+.discussionContent .discussionHeading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.5rem;
+}
+
+.popupContainer{
+    background: rgba(0, 0, 0, 0.65);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transition: all 100ms ease-in-out;
+}
+
+.popupContainer.show{
+    opacity: 1;
+    pointer-events: auto;
+    transition: all 100ms ease-in-out;
+}
+
+.popup{
+    margin-bottom: -430px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
+    padding: 1rem;
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    color: var(--black);
+    height: max-content;
+    transition: all 100ms ease-in-out;
+}
+
+.popup.show {
+    margin-bottom: 0;
+    transition: all 100ms ease-in-out;
+}
+
+.popup form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0.5rem;
+}
+
+.popup form .formGroup {
+    justify-content: space-between;
+    display: flex;
+    margin: 1rem 0;
+    gap: 1rem;
+}
+
+.popup form .itemOneBtns {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.popup form .itemTwo {
+    display: flex;
+    gap: 1rem;
+}
+
+.popup form .itemTwo .left{
+    display: flex;
+    width: 50%;
+}
+
+.popup form .itemTwo .right{
+    display: flex;
+    width: 50%;
+}
+
+.css-1tdhd57 {
+    width: 100%;
+}
+
+.popup form .itemTwo .left .css-1pgqvwt {
+    width: 48% !important;
+}
+
+.popup form .itemTwo .right .css-1pgqvwt {
+    width: 48% !important;
+}

@@ -1,0 +1,26 @@
+.menuTab {
+    display: flex;
+    width: 45%;
+}
+
+.menuTab .navMenu {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menuTab .navMenu .isActive {
+    border-bottom: 5px solid var(--orange);
+}
+
+.logoSearch {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}

@@ -1,0 +1,142 @@
+.private {
+    min-height: 100vh;
+}
+
+.profileSection {
+    position: relative;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1rem;
+    padding: 1.5rem;
+}
+
+.profileSection .leftProfile {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.5rem;
+    width: 70%;
+}
+
+.profileSection .rightProfile {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0.5rem;
+    width: 30%;
+}
+
+.modalDiv{
+    background: rgba(0, 0, 0, 0.65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 100vh;
+    z-index: 1;
+    transition: all 100ms ease-in-out;
+}
+
+.modalDiv.show{
+    opacity: 1;
+    pointer-events: auto;
+    transition: all 100ms ease-in-out;
+}
+
+.modalComponent{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
+    padding: 2rem;
+    width: 60%;
+    max-height: 95vh;
+    overflow: scroll;
+    color: var(--black);
+    height: max-content;
+    transition: all 100ms ease-in-out;
+}
+
+.modalComponent.show {
+    transition: all 100ms ease-in-out;
+}
+
+.modalComponent form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
+
+.modalComponent form .profileInformation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 2rem;
+}
+
+.modalComponent .profileInformation .leftProfileInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 60%;
+}
+
+.modalComponent .profileInformation .rightProfileInfo {
+    border: 4px solid var(--inputColor);
+    border-radius: 25px;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 40%;
+}
+
+.modalComponent .profileInformation .rightProfileInfo .profileAvatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.modalComponent .full {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.modalComponent .formBtns {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.modalComponent .half {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modalComponent .half .left{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+}
+
+.modalComponent .half .right {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+}
+

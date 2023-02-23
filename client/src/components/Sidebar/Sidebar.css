@@ -1,0 +1,31 @@
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    box-shadow: 0 4px 25px 0 rgb(0 0 0 / 10%);
+    background-color: var(--cardColor);
+    user-select: none;
+
+    z-index: 999;
+}
+
+.sidebar-header {
+    color: var(--cardColor);
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 80px;
+
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.sidebar-header svg{
+    font-size: 1.6rem;
+    margin: 0 10px;
+}
+
+.sidebar-menu {
+    padding: 20px 0;
+}

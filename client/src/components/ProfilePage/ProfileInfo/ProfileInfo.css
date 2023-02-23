@@ -1,0 +1,56 @@
+.profileInfoHeading {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background: var(--cardColor);
+    border-radius: 15px;
+    gap: 1rem;
+}
+
+.profileInfoHeading .personalDetails {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    align-items: center;
+}
+
+.profileInfoHeading .personalDetails img {
+    cursor: pointer;
+}
+
+.profileInfoHeading .personalDetails .avatarInfo {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profileInfoHeading .personalDetails .avatarInfo .avatarInfoDetails {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 0.25rem;
+}
+
+.profileInfoHeading .personalDetails .avatarInfo .avatarInfoDetails h5 {
+    color: var(--gray);
+}
+
+.profileInfoHeading .personalDetails .avatarInfo .avatarInfoDetails p {
+    color: var(--gray);
+    font-size: 13px;
+}
+
+.profileInfoHeading .personalDetails .avatarInfo .avatarInfoBtns { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.profileInfoHeading .css-13xfq8m-MuiTabPanel-root {
+    padding: 1rem !important;
+}

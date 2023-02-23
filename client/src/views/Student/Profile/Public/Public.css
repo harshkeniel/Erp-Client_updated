@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.25rem 3rem;
+    align-items: center;
+    background: var(--black);
+    color: var(--cardColor);
+    font-size: 14px;
+    letter-spacing: 2px;
+    gap: 1rem;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+.footer div {
+    padding: 5px;
+    background: var(--cardColor);
+    border-radius: 50%;
+}
+
+.footer div img {
+    width: 30px;
+    height: 30px;
+}

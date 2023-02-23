@@ -1,0 +1,59 @@
+.discussion {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    justify-content: space-between;
+    border-radius: 15px;
+    background: var(--contentBody);
+}
+
+.discussion .discussionLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 90%;
+}
+
+.discussion .discussionLeft .discussionTitle {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.discussion .discussionLeft .discussionTitle img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.discussion .discussionLeft .discussionDescription p {
+    font-size: 14px;
+}
+
+.discussion .discussionLeft .discussionTags {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}
+
+.discussion .discussionLeft .discussionTags div h5 {
+    text-align: center;
+}
+
+.discussion .discussionRight {
+    display: flex;
+    width: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.discussion .discussionRight .discussionIcons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.user-card {
+    width: 100%;
+    background-color: white;
+    border-radius: 0.2rem;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+.user-card .user-img{
+    width: 64px;
+    height: 64px;
+    max-width: 64px;
+    max-height: 64px;
+    border-radius: 50%;
+}
+
+.user-card .user-name{
+    padding: 0 1.2rem;
+    font-weight: bold;
+}

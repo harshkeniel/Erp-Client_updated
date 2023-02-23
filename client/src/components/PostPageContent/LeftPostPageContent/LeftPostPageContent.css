@@ -1,0 +1,59 @@
+.leftPostPageContent {
+    width: 70%;
+}
+
+.leftPostPageContent .singlePost {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--cardColor);
+    border-radius: 1rem;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.leftPostPageContent .commentContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftPostPageContent .commentContent .commentTitle {
+    display: flex;
+    gap: 1rem;
+    margin: 0.5rem 0;
+    align-items: center;
+}
+
+.addComment {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+    padding: 0.5rem;
+  }
+  
+  .addComment .leftAddComment img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .addComment .rightAddComment {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 100%;
+      padding: 0 1rem;
+  }
+  
+  .addComment .rightAddComment .txtInput .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+      font-size: 14px;
+      color: var(--black);
+  }
+  
+  .addComment .rightAddComment .commentBtns {
+      display: flex;
+      justify-content: flex-end;
+      gap: 1.5rem;
+  }
+  

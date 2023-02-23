@@ -1,0 +1,15 @@
+.richTextEditor {
+    width: 100%;
+}
+
+.jodit-status-bar {
+    display: none;
+}
+
+.jodit-dialog__header-title {
+    text-transform: capitalize;
+}
+
+.jodit-wysiwyg {
+    height: 30vh !important;
+}

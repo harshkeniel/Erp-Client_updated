@@ -1,0 +1,72 @@
+.journey {
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+    width: 100%;
+    flex-direction: row !important;
+}
+
+.journey .left {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 1rem;
+}
+
+.journey .left .journeyInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.journey .left .journeyInfo ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    font-size: 16px;
+    gap: 1rem;
+}
+
+.journey .right {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+.journey .right .journeyContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    background: var(--contentBody);
+    border-radius: 25px;
+}
+
+.journey .right .journeyContainer .journeyItem {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: var(--cardColor);
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.journey .right .journeyContainer .journeyItem .above {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.journey .right .journeyContainer .journeyItem .above .tags {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.journey .right .journeyContainer .journeyItem .below {
+    display: flex;
+    font-size: 14px;
+}

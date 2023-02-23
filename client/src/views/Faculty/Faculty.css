@@ -1,0 +1,8 @@
+.faculty .MenuTab{
+    width: 40%;
+}
+
+.faculty{
+    background: var(--contentColor);
+    font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,71 @@
+.comment {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
+
+.comment .commentLeft img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.comment .commentRight {
+    background: rgb(0 0 0 / 7%);
+    padding: 0 1rem;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.comment .commentRight .subAuthorInfo {
+    background: var(--contentBody);
+    padding: 1rem;
+    border-radius: 15px;
+    margin: 0rem 1rem 2rem 1rem;
+}
+
+.comment .commentRight .authorInfo {
+    margin-bottom: 1rem;
+}
+
+.comment .commentRight .authorInfo .authorHeading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin: 0.5rem 0;
+}
+
+.comment .commentRight .authorInfo .authorHeading .left {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.comment .commentRight .authorInfo .authorHeading h6 {
+    color: grey;
+}
+
+.comment .commentRight .authorInfo .authorSubHeading {
+    font-size: 14px;
+    margin: 0.5rem 0;
+}
+
+.comment .commentRight .authorInfo .authorStats {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.comment .commentRight .authorInfo .authorStats .voteCount {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: bold;
+}
+
+.comment .commentRight .authorInfo .authorStats Button {
+    text-transform: capitalize;
+    font-weight: bold;
+}

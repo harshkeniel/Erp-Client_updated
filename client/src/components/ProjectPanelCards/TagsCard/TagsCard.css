@@ -1,0 +1,37 @@
+.tags-card .content {
+    border-radius: 0 !important;
+}
+
+.tags-card .footer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.tags-card .footer svg {
+    margin-right: auto;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.tags-card .footer input{
+    margin-right: 0;
+}
+
+.tags-card .tablet {
+    padding: 5px 10px;
+    font-weight: bold;
+    text-align: center;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tags-card .tablet:hover {
+    filter: brightness(80%);
+}
+
+.tags-card .tablet.deletable:hover {
+    text-decoration: line-through;
+}

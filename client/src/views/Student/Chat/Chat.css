@@ -1,0 +1,4 @@
+.chatBody {
+    background: var(--contentBody);
+    height: 90vh;
+}

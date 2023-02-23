@@ -1,0 +1,94 @@
+.projectInfo {
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    overflow-x: clip;
+    background: var(--cardColor);
+}
+
+.projectInfo .projectHeading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectInfo .creators {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectInfo .creators .creatorInfo {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.projectInfo .creators .avatarContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem 0;
+    margin: 1rem 0;
+}
+
+.projectInfo .creators .avatarContainer .personalDetail {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.projectInfo .creators .avatarContainer .personalDetail img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.projectInfo .resources .resourceInfo {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.projectInfo .resources .resource {
+    display: flex;
+    background: var(--inputColor);
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    gap: 2rem;
+    margin: 0.5rem 0;
+    align-items: center;
+    cursor: pointer;
+}
+
+.projectInfo .resources .resource a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.projectInfo .techStack {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.projectInfo .techStack .techStackInfo {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.projectInfo .techStack .techs {
+    display: grid;
+    cursor: pointer;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.projectInfo .techStack .techs div h5 {
+    text-align: center;
+}

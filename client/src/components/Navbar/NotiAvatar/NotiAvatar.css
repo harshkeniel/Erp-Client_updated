@@ -1,0 +1,19 @@
+.notiAvatar {
+    display: flex;
+    width: 42%;
+    justify-content: flex-end;
+}
+
+.notiAvatar .notiAvatarMenu {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.notiAvatar .notiAvatarMenu img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}

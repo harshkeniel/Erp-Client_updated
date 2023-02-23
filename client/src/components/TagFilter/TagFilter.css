@@ -1,0 +1,22 @@
+.tagFilter {
+    width: 30%;
+}
+
+.tagCard {
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 1rem;
+    padding: 1rem;
+    overflow-x: clip;
+    background: var(--cardColor);
+}
+
+.creators .css-1pgqvwt {
+    width: 300px;
+}
+
+.resources .css-1pgqvwt {
+    width: 300px;
+}

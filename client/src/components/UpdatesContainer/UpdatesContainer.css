@@ -1,0 +1,29 @@
+.updatesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.updatesContainer .update {
+    padding: 5px 10px;
+    box-shadow: var(--profileShadow);
+    border-left: 5px solid crimson;
+    box-shadow: 3px;
+}
+
+.updatesContainer .update p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.updatesContainer .update .info {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    color: grey;
+}
+
+.updatesContainer .update .info p {
+    font-size: 12px;
+    font-family: courier;
+}

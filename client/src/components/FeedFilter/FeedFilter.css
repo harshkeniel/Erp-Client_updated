@@ -1,0 +1,69 @@
+.feedFilter {
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 1rem;
+    padding: 1rem;
+    overflow-x: clip;
+    background: var(--cardColor);
+}
+
+.feedFilter .tabs {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedFilter .tabInfo {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+
+.feedFilter .tabs .Tabs {
+    margin: 0.5rem 0;
+}
+
+.feedFilter .tabs .Tabs .feedOption  {
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin: 0.5rem 0;
+    padding: 5px 10px;
+    background: var(--inputColor);
+    cursor: pointer;
+}
+
+.feedFilter .tabs .Tabs .feedOption.isActive {
+    /* background: var(--black); */
+    background: #6985da;
+    color: #fff;
+}
+
+.feedFilter .tabs .boardOption {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    gap: 1rem;
+    margin: 0.5rem 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.feedFilter .tabs .boardOption:hover {
+    background-color: var(--inputColor);
+}
+
+.feedFilter .tabs .boardOption.isActive {
+    background: var(--black);
+    color: #fff;
+}
+
+.feedFilter .tabs .boardOption .left {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+}

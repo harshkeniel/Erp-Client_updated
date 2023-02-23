@@ -1,0 +1,85 @@
+.links-card .content {
+    display: flex;
+    flex-direction: column;
+    gap : 15px;
+
+    padding: 20px;
+}
+
+.links-card .content .link-tablet {
+    width: 100%;
+    min-height: 50px;
+
+    margin-bottom: 15px;
+}
+
+.links-card .content .link-tablet .link-label {
+    width: fit-content;
+
+    padding: 0.3rem 0.8rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
+
+}
+
+.links-card .content .link-tablet .link-label .icon{
+    margin-left : 0.6rem;
+    cursor: pointer;
+}
+
+.links-card .content .link-tablet .link-label .icon:hover{
+    filter: brightness(25%);
+}
+
+
+.links-card .content .link-tablet .link-url {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0.4rem 0;
+
+    border-bottom-left-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
+}
+.links-card .content .link-tablet .link-url span{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 1rem;
+}
+
+.links-card .content .link-tablet .link-url .delete-icon{
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.links-card .card-footer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.links-card .card-footer>div:first-child {
+    width: 70%;
+}
+
+.links-card .card-footer input{
+    padding: 5px 10px;
+}
+
+.links-card .card-footer input:first-child{
+    width: 50%;
+}
+
+.links-card .card-footer .icon{
+    margin-left: auto;
+    height: 3rem;
+    cursor: pointer;
+}
+
+

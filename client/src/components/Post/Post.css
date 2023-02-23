@@ -1,0 +1,106 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--cardColor);
+    border-radius: 1rem;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.post .postInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post .postInfo img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.post .postInfo .personalDetail {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.post .postInfo .personalDetail h4 {
+    margin-left: 10px;
+}
+
+.post .postInfo .domainName {
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.post .postDescription p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.post .postStats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.post .postStats .postStatsItems {
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post .postStats .postStatsItems p {
+    margin-left: 5px;
+    color: var(--black)
+}
+
+.post > img {
+    width: 100%;
+    max-height: 20rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.post .postFooter {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.post .postFooter .postButtons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:90%;
+}
+
+.post .postFooter .postButtons .postButton {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    border : 2px;
+    border-radius: 4px;
+    height: 40px;
+    border: 1px solid rgba(0,0,0,.1);
+    cursor: pointer;
+    background-color: white;
+    padding: 0 20px;
+}
+
+.post .postFooter .postButtons .postButton svg {
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+
+
+
+.post .postFooter .postButtons .postButton:hover {
+    background-color: rgba(0,0,0, 0.06);
+}
+

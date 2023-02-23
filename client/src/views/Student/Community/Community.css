@@ -1,0 +1,34 @@
+.community {
+    background: var(--contentBody);
+}
+
+.communityContent {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 2rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.communityContent .filterBtns {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.communityContent .filterBtns Button {
+    width: 18%;
+    padding: 1rem;
+    color: var(--black);
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.communityContent .discussionBody {
+    display: flex;
+    gap: 4rem;
+}

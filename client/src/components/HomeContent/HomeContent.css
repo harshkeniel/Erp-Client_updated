@@ -1,0 +1,18 @@
+.homeContent {
+    position: relative;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: 20rem auto 20rem;
+    gap: 2rem;
+    padding: 1.5rem;
+    min-height: 90vh;
+}
+
+.homeContent .middle {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    overflow: auto;
+    height: 120vh;
+}

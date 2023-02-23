@@ -1,0 +1,13 @@
+.faculty .assignmentBody{
+    padding: 1rem 2rem;
+    min-height: 90vh;
+}
+
+.faculty .assignmentBodyContent {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem;
+    width: 90%;
+    margin: 0rem auto;
+}

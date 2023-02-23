@@ -1,0 +1,55 @@
+.addInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+
+.addInfo .addNewComponent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    background: var(--contentBody);
+    border-radius: 15px;
+    padding: 0.5rem;
+}
+
+.addInfo .addNewComponent .rightAddNewComponent {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.addInfo .addNewComponent .rightAddNewComponent .left {
+    flex-direction: column;
+    display: flex;
+    gap: 0.25rem;
+}
+
+.addInfo .addNewComponent .rightAddNewComponent .left p {
+    font-size: 14px;
+}
+
+.sectionInfoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.sectionInfoContainer .sectionInfo {
+    padding: 1rem;
+    border: 3px solid var(--contentBody);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sectionInfoContainer .sectionInfo .left {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}

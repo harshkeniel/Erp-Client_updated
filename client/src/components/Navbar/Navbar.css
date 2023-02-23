@@ -1,0 +1,10 @@
+.Navbar {
+    position: relative;
+    display: flex;
+    width: 100%;
+    grid-template-columns: 30rem auto 20rem;
+    gap: 1rem;
+    padding: 0.5rem;
+    background: var(--navbar);
+    box-shadow: var(--profileShadow);
+}

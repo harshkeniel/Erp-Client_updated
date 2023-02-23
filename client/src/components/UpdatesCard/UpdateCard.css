@@ -1,0 +1,17 @@
+.updateCard {
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 1rem;
+  padding: 2rem 1rem;
+  overflow-x: clip;
+  background: var(--cardColor);
+}
+
+.updateCard h4 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+}

@@ -1,0 +1,13 @@
+.skillsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.skillsContainer > div {
+    text-align: center;
+    border-radius: 25px;
+    padding: 0.5rem;
+    background: var(--inputColor);
+    cursor: pointer;
+}
